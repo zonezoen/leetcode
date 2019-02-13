@@ -113,8 +113,63 @@ class Solution:
             pointer += 1
         return pointer
 
+def run27():
+    nums = [0, 1, 2, 2, 3, 0, 4, 2]
+    s = Solution()
+    s.removeElement(nums, 2)
+    print(nums)
 
-nums = [0, 1, 2, 2, 3, 0, 4, 2]
-s = Solution()
-s.removeElement(nums, 2)
-print(nums)
+
+# 35. 搜索插入位置
+# https://leetcode-cn.com/problems/search-insert-position/
+class Solution:
+# 99.56% 44ms
+    def searchInsert(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: int
+        """
+        if len(nums) ==0:
+            return 0
+        result = len(nums)
+        for index,num in enumerate(nums):
+            if num == target:
+                print(f'num{num} = target{target} , index is {index}')
+                result = index
+                break
+            if num > target:
+                print(f'num{num} > target{target} , index is {index}')
+                result = index
+                break
+        while target not in nums:
+            print(f'insert num{target} on {index}')
+            nums.insert(result, target)
+        return result
+
+# 网络最优解
+    def searchInsert(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: int
+        """
+        if not nums:
+            return 0
+        left = 0
+        right = len(nums) - 1
+        while left <= right:
+            mid = (left + right) // 2
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] > target:
+                right = mid - 1
+            else:
+                left = mid + 1
+        return left
+def run35():
+    nums = [1,3,5,6]
+    s = Solution()
+    s.searchInsert(nums, 7)
+    print(nums)
+run35()
