@@ -1,7 +1,7 @@
 # 26. 删除排序数组中的重复项
 # https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
 class Solution:
-# 重新生成了 list，地址改变了，导致原数组没有得到改变
+    # 重新生成了 list，地址改变了，导致原数组没有得到改变
     def removeDuplicates1(self, nums):
         """
         :type nums: List[int]
@@ -11,7 +11,7 @@ class Solution:
         print(nums)
         return len(nums)
 
-# 26.88% 128ms
+    # 26.88% 128ms
     def removeDuplicates(self, nums):
         """
         :type nums: List[int]
@@ -25,7 +25,7 @@ class Solution:
             nums[index] = key
         return len(my_dict)
 
-# 网络上的最优解
+    # 网络上的最优解
     def removeDuplicates(self, nums):
         """
         :type nums: List[int]
@@ -55,7 +55,66 @@ class Solution:
         return pointer
 
 
+# s = Solution()
+# nums = [1, 1, 2]
+# s.removeDuplicates(nums)
+# print(nums)
+
+
+# 27. 移除元素
+# https://leetcode-cn.com/problems/remove-element/
+class Solution:
+    # 76.98% 48ms
+    def removeElement(self, nums, val):
+        """
+        :type nums: List[int]
+        :type val: int
+        :rtype: int
+        """
+        if nums is None and len(nums) == 0:
+            return 0
+        nums_length = len(nums)
+        for index, num in enumerate(reversed(nums)):
+            if num == val:
+                nums.pop(nums_length - index - 1)
+        return len(nums)
+
+    # 76.98 48ms
+    def removeElement(self, nums, val):
+        """
+        :type nums: List[int]
+        :type val: int
+        :rtype: int
+        """
+        if nums is None and len(nums) == 0:
+            return 0
+        value_index = []
+        for index, num in enumerate(nums):
+            if num == val:
+                value_index.append(index)
+        for index in reversed(value_index):
+            nums.pop(index)
+        return len(nums)
+
+# 网络最优解
+    def removeElement(self, nums, val):
+        """
+        :type nums: List[int]
+        :type val: int
+        :rtype: int
+        """
+        if nums is None and len(nums) == 0:
+            return 0
+        pointer = 0
+        for i in range(len(nums)):
+            if nums[i] == val:
+                continue
+            nums[pointer] = nums[i]
+            pointer += 1
+        return pointer
+
+
+nums = [0, 1, 2, 2, 3, 0, 4, 2]
 s = Solution()
-nums = [1, 1, 2]
-s.removeDuplicates(nums)
+s.removeElement(nums, 2)
 print(nums)
