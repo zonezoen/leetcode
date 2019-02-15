@@ -96,7 +96,7 @@ class Solution:
             nums.pop(index)
         return len(nums)
 
-# 网络最优解
+    # 网络最优解
     def removeElement(self, nums, val):
         """
         :type nums: List[int]
@@ -113,6 +113,7 @@ class Solution:
             pointer += 1
         return pointer
 
+
 def run27():
     nums = [0, 1, 2, 2, 3, 0, 4, 2]
     s = Solution()
@@ -120,20 +121,23 @@ def run27():
     print(nums)
 
 
+# run27()
+
+
 # 35. 搜索插入位置
 # https://leetcode-cn.com/problems/search-insert-position/
 class Solution:
-# 99.56% 44ms
+    # 99.56% 44ms
     def searchInsert(self, nums, target):
         """
         :type nums: List[int]
         :type target: int
         :rtype: int
         """
-        if len(nums) ==0:
+        if len(nums) == 0:
             return 0
         result = len(nums)
-        for index,num in enumerate(nums):
+        for index, num in enumerate(nums):
             if num == target:
                 print(f'num{num} = target{target} , index is {index}')
                 result = index
@@ -142,12 +146,9 @@ class Solution:
                 print(f'num{num} > target{target} , index is {index}')
                 result = index
                 break
-        while target not in nums:
-            print(f'insert num{target} on {index}')
-            nums.insert(result, target)
         return result
 
-# 网络最优解
+    # 网络最优解
     def searchInsert(self, nums, target):
         """
         :type nums: List[int]
@@ -167,9 +168,44 @@ class Solution:
             else:
                 left = mid + 1
         return left
+
+
 def run35():
-    nums = [1,3,5,6]
+    nums = [1, 3, 5, 6]
     s = Solution()
     s.searchInsert(nums, 7)
     print(nums)
-run35()
+
+
+# run35()
+
+
+# 53. 最大子序和
+# https://leetcode-cn.com/problems/maximum-subarray/
+class Solution:
+    def maxSubArray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        if not nums:
+            return 0
+        my_dict = {}
+        for i in range(len(nums)):
+            index = i + 1
+
+            while index <= len(nums):
+                my_dict[str(i) + str(index)] = sum(nums[i:index])
+                index += 1
+        print(my_dict)
+        return (max(my_dict.values()))
+
+
+def run57():
+    nums = [-1]
+    s = Solution()
+    result = s.maxSubArray(nums)
+    print(result)
+
+
+run57()
