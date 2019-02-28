@@ -183,6 +183,7 @@ def run35():
 # 53. 最大子序和
 # https://leetcode-cn.com/problems/maximum-subarray/
 class Solution:
+    # 耗时太长了，不通过
     def maxSubArray(self, nums):
         """
         :type nums: List[int]
@@ -190,17 +191,30 @@ class Solution:
         """
         if not nums:
             return 0
-        my_dict = {}
+        result = - 2 ** 31
         for i in range(len(nums)):
             index = i + 1
 
             while index <= len(nums):
-                my_dict[str(i) + str(index)] = sum(nums[i:index])
+                # my_dict[str(i) + str(index)] = sum(nums[i:index])
+                if sum(nums[i:index]) > result:
+                    result = sum(nums[i:index])
                 index += 1
-        print(my_dict)
-        return (max(my_dict.values()))
+        return result
+    # 动态规划
+    def maxSubArray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        temp,max = 0,-2**31
 
-
+        for index,num in enumerate(nums):
+            if temp<0:
+                temp = 0
+            temp += num
+            max = max(max,temp)
+        return max
 def run57():
     nums = [-1]
     s = Solution()
