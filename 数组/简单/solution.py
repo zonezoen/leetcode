@@ -400,11 +400,11 @@ def run485():
     result = s.findMaxConsecutiveOnes([1])
     print(result)
 run485()
-                # temp, max = 0, -2 ** 31
-                #
-                # for index, num in enumerate(nums):
-                #     if temp < 0:
-                #         temp = 0
-                #     temp += num
-                #     max = max(max, temp)
-                # return max
+
+# 661. 图片平滑器
+# https://leetcode-cn.com/problems/image-smoother/
+class Solution:
+    def imageSmoother(self, M) -> List[List[int]]:
+
+
+
