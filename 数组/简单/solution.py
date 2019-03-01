@@ -139,11 +139,11 @@ class Solution:
         result = len(nums)
         for index, num in enumerate(nums):
             if num == target:
-                print(f'num{num} = target{target} , index is {index}')
+                # print(f'num{num} = target{target} , index is {index}')
                 result = index
                 break
             if num > target:
-                print(f'num{num} > target{target} , index is {index}')
+                # print(f'num{num} > target{target} , index is {index}')
                 result = index
                 break
         return result
@@ -201,20 +201,23 @@ class Solution:
                     result = sum(nums[i:index])
                 index += 1
         return result
+
     # 动态规划
     def maxSubArray(self, nums):
         """
         :type nums: List[int]
         :rtype: int
         """
-        temp,max = 0,-2**31
+        temp, max = 0, -2 ** 31
 
-        for index,num in enumerate(nums):
-            if temp<0:
+        for index, num in enumerate(nums):
+            if temp < 0:
                 temp = 0
             temp += num
-            max = max(max,temp)
+            max = max(max, temp)
         return max
+
+
 def run57():
     nums = [-1]
     s = Solution()
@@ -222,4 +225,186 @@ def run57():
     print(result)
 
 
-run57()
+# run57()
+
+
+# 66. 加一
+# https://leetcode-cn.com/problems/plus-one/
+class Solution:
+    def plusOne(self, digits):
+        sum_num = 0
+        result = []
+        for index, num in enumerate(reversed(digits)):
+            sum_num += num * 10 ** index
+        sum_num += 1
+        for char in str(sum_num):
+            result.append(int(char))
+        return result
+
+    # 最优解
+    def plusOne(self, digits):
+        i = 1
+        while (i <= len(digits)):
+            if digits[-i] == 9:
+                digits[-i] = 0
+                i += 1
+            else:
+                digits[-i] += 1
+                break
+        # 判断整体进了一位之后
+        if i == len(digits) + 1:
+            digits = [1] + digits
+        return digits
+
+
+def run66():
+    s = Solution()
+    result = s.plusOne([6, 1, 4, 5, 3, 9, 0, 1, 9, 5, 1, 8, 6, 7, 0, 5, 5, 4, 3])
+    print(result)
+
+
+# run66()
+
+
+# 217. 存在重复元素
+# https://leetcode-cn.com/problems/contains-duplicate/
+class Solution:
+    def containsDuplicate(self, nums):
+        if not nums or len(nums) == 0:
+            return True
+        num_dict = {}
+        max_num = 0
+        for num in nums:
+            num_dict[num] = num_dict.get(num, 0)
+            max_num = max(max_num, num_dict[num])
+            if max_num > 1:
+                return True
+        return False
+
+
+# 219. 存在重复元素 II
+# https://leetcode-cn.com/problems/contains-duplicate-ii/
+class Solution:
+    def containsNearbyDuplicate(self, nums, k: int) -> bool:
+        if not nums or len(nums) == 0:
+            return False
+        num_dict = {}
+        for index, num in enumerate(nums):
+            num_dict[num] = num_dict.get(num, [])
+            num_dict[num].append(index)
+            print(num_dict[num])
+            if len(num_dict[num]) > 1 and (
+                num_dict[num][len(num_dict[num]) - 1] - num_dict[num][len(num_dict[num]) - 2]) <= k:
+                return True
+        return False
+
+
+def run219():
+    s = Solution()
+    result = s.containsNearbyDuplicate([1, 2, 3, 1], 3)
+    print(result)
+
+
+# run219()
+
+# 220. 存在重复元素 III
+# https://leetcode-cn.com/problems/contains-duplicate-iii/
+class Solution:
+    def containsNearbyAlmostDuplicate(self, nums, k: int, t: int) -> bool:
+        if not nums or len(nums) == 0:
+            return False
+        num_dict = {}
+        # for index, num in enumerate(nums):
+        #     num_dict[num] = num_dict.get(num, [])
+        #     num_dict[num].append(index)
+        #     print(num_dict[num])
+        #     if len(num_dict[num]) > 1 and (num_dict[num][len(num_dict[num])-1] - num_dict[num][len(num_dict[num])-2]) <= k and
+        #         num_dict[num]:
+        #         pass
+        #         return True
+        return False
+
+
+# 268. 缺失数字
+# https://leetcode-cn.com/problems/missing-number/
+class Solution:
+    # 0.99%
+    def missingNumber(self, nums) -> int:
+        max_num = max(nums)
+        for num in range(max_num + 1):
+            if num not in nums:
+                return num
+        return max_num + 1
+
+    # 最优解
+    def missingNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        n = len(nums)
+        s = sum(list(range(n + 1)))
+        return s - sum(nums)
+
+
+class Solution:
+    def moveZeroes(self, nums) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        zero_list = []
+        for index, num in enumerate(nums):
+            if num == 0:
+                zero_list.append(index)
+                nums.append(0)
+        for index in zero_list:
+            nums.pop(index)
+        return nums
+
+
+# 485. 最大连续1的个数
+# https://leetcode-cn.com/problems/max-consecutive-ones/
+class Solution:
+    def findMaxConsecutiveOnes(self, nums) -> int:
+        result = 0
+        max_num = 0
+        for num in nums:
+            if num == 1:
+                result += 1
+            else:
+                max_num = max(max_num, result)
+                result = 0
+        max_num = max(max_num, result)
+        return max_num
+    # 最优解
+    def findMaxConsecutiveOnes(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        count = 0
+        Max = 0
+        for i in nums:
+            if i:
+                count += 1
+            else:
+                if count > Max:
+                    Max = count
+                count = 0
+
+        return Max if Max > count else count
+
+
+def run485():
+    s = Solution()
+    result = s.findMaxConsecutiveOnes([1])
+    print(result)
+run485()
+                # temp, max = 0, -2 ** 31
+                #
+                # for index, num in enumerate(nums):
+                #     if temp < 0:
+                #         temp = 0
+                #     temp += num
+                #     max = max(max, temp)
+                # return max
