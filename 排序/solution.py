@@ -88,6 +88,7 @@ def select_sort(nums):
         if i != min_index:
             swap(nums, i, min_index)
 
+
 # select_sort(nums)
 
 
@@ -95,6 +96,8 @@ def select_sort(nums):
 '''
 遍历数组，每遍历得到一个数，与前面的有序部分比较，比较小的话，就往前面的有序部分插入
 '''
+
+
 def insert_sort(nums):
     length = len(nums)
     for i in range(1, length):
@@ -102,15 +105,47 @@ def insert_sort(nums):
             if nums[j] < nums[j - 1]:
                 swap(nums, j - 1, j)
 
-insert_sort(nums)
 
+# insert_sort(nums)
 
 
 # 快速排序
-def quick_sort(nums, left=None, right=None):
-    pass
+def quick_sort(array, l, r):
+    print('start array:{}'.format(array))
+    if l < r:
+        q = partition(array, l, r)
+        quick_sort(array, l, q - 1)
+        quick_sort(array, q + 1, r)
+
+#     x = array[r]
+#     i = l - 1
+#     for j in range(l, r):
+#         if array[j] <= x:
+#             i += 1
+#             array[i], array[j] = array[j], array[i]
+#     array[i + 1], array[r] = array[r], array[i + 1]
+#     return i + 1
+def partition(array, l, r):
+    x = array[r]
+    i = l
+    for j in range(l, r):
+        if array[j] <= x:
+            array[i], array[j] = array[j], array[i]
+            i += 1
+    array[i + 1], array[r] = array[r], array[i + 1]
+    return i
 
 
+
+
+
+quick_sort(nums, 0, len(nums) - 1)
 print(nums)
 
 
+# for i in range(3,8):
+#     print(i)
+
+
+
+#   (I2-I2)*min(A1,A2)
