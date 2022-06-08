@@ -2,89 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85e5c042-e2a9-464a-b562-a347bf87c144" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/a快排TopK问题.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/a快排TopK问题.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/a快排TopK问题2.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/a快排TopK问题2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc01.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc02.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc03_mid_i滑动窗口.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc03_mid_i滑动窗口.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc101+对称二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc101+对称二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc102.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc102.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc103+二叉树的锯齿形层序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc103+二叉树的锯齿形层序遍历.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc104+二叉树的最大深度.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc104+二叉树的最大深度.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc105+ 从前序与中序遍历序列构造二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc105+ 从前序与中序遍历序列构造二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc110+平衡二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc110+平衡二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc110_.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc110_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc112+路径总和.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc112+路径总和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc1143+最长公共子序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc1143+最长公共子序列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc117+填充每个节点的下一个右侧节点指针 II.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc117+填充每个节点的下一个右侧节点指针 II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc121+买卖股票的最佳时机.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc121+买卖股票的最佳时机.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc124+二叉树中的最大路径和.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc124+二叉树中的最大路径和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc129+求根节点到叶节点数字之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc129+求根节点到叶节点数字之和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc136.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc136.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc14.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc141.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc141.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc142.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc142.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc143+重排链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc143+重排链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc144.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc144.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc145.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc145.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc146+LRU 缓存.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc146+LRU 缓存.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc15+三数之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc15+三数之和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc151-颠倒字符串中的单词.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc151-颠倒字符串中的单词.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc155+最小栈.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc155+最小栈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc160.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc160.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc169-多数元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc169-多数元素.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc17+电话号码的字母组合.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc17+电话号码的字母组合.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc179+最大数.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc179+最大数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc199.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc199.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc19_mid_i.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc19_mid_i.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc20-有效的括号.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc20-有效的括号.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc200+岛屿的数量.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc200+岛屿的数量.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc206+反转链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc206+反转链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc21.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc21.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc215+ 数组中的第K个最大元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc215+ 数组中的第K个最大元素.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc215+数组中的第K个最大元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc215+数组中的第K个最大元素.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc216+组合总和 III.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc216+组合总和 III.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc22+括号生成.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc22+括号生成.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc226.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc226.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc232.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc232.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc234-回文链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc234-回文链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc236+二叉树的最近公共祖先.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc236+二叉树的最近公共祖先.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc25+k个一组翻转链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc25+k个一组翻转链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc25+k个一组翻转链表02.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc25+k个一组翻转链表02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc25+k个一组翻转链表03.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc25+k个一组翻转链表03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc278+第一本错误的版本.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc278+第一本错误的版本.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc283.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc283.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc300+最长递增子序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc300+最长递增子序列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc33+搜索旋转排序数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc33+搜索旋转排序数组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc34+在排序数组中查找元素的第一个和最后一个位置.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc34+在排序数组中查找元素的第一个和最后一个位置.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc349-两个数组的交集.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc349-两个数组的交集.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc4+最长回文子串.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc4+最长回文子串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc41+缺失的第一个正数.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc41+缺失的第一个正数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc415-字符串相加.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc415-字符串相加.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc42+接雨水.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc42+接雨水.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc443+压缩字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc443+压缩字符串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc46+全排列.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc46+全排列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc5+最长回文子串.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc5+最长回文子串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc53+最大子数组和（滑动窗口）.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc53+最大子数组和（滑动窗口）.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc54+螺旋矩阵.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc54+螺旋矩阵.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc543+二叉树的直径.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc543+二叉树的直径.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc64+最小路径和.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc64+最小路径和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc647+回文子串.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc647+回文子串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc70+爬楼梯.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc70+爬楼梯.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc704+二分查找.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc704+二分查找.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc77+组合.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc77+组合.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc82+删除排序链表中的重复元素 II.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc82+删除排序链表中的重复元素 II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc88-合并两个有序数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc88-合并两个有序数组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc88.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc88.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc92+反转链表 II.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc92+反转链表 II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/lc94.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lc94.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/playground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/剑指 Offer 22. 链表中倒数第k个节点.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/剑指 Offer 22. 链表中倒数第k个节点.py" afterDir="false" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/哈希表/solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/solution.py" afterPath="$PROJECT_DIR$/排序/solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数组/中等/solution.py" afterPath="$PROJECT_DIR$/数组/中等/solution.py" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,6 +20,124 @@
     <SUITE FILE_PATH="coverage/leetcode$test.coverage" NAME="test Coverage Results" MODIFIED="1550059149700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数组/简单" />
     <SUITE FILE_PATH="coverage/leetcode$solution__2_.coverage" NAME="solution (2) Coverage Results" MODIFIED="1551494202282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/排序" />
     <SUITE FILE_PATH="coverage/leetcode$solution__3_.coverage" NAME="solution (3) Coverage Results" MODIFIED="1551627666489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/哈希表" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="987254064">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="5" />
+          <entry key="py" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="5" />
+          <entry key="Python" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="md" value="62" />
+          <entry key="py" value="1955" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="62" />
+          <entry key="Python" value="1955" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="question.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数组/简单/question.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数组/简单/solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6150">
+              <caret line="410" column="0" lean-forward="false" selection-start-line="410" selection-start-column="0" selection-end-line="410" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/高频面试题目/solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2355">
+              <caret line="157" column="21" lean-forward="false" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="soulution.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据库/soulution.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1065">
+              <caret line="71" column="77" lean-forward="false" selection-start-line="71" selection-start-column="77" selection-end-line="71" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/排序/solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="120" column="15" lean-forward="true" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数组/中等/solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solution.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/哈希表/solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="57" column="19" lean-forward="false" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -137,7 +179,6 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectId" id="2AI2CamxVSeILKX8sYGIB6biSyO" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -168,16 +209,12 @@
       <pane id="Scratches" />
     </panes>
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -185,9 +222,20 @@
       <recent name="$PROJECT_DIR$/数组/困难" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="Python.solution (3)">
     <configuration name="solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -198,18 +246,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/高频面试题目/solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="solution (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -220,18 +264,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/排序/solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="solution (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -242,18 +282,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/哈希表/solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -264,18 +300,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数组/简单/solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -286,34 +318,33 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数组/简单/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.solution (1)" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.solution" />
-      <item itemvalue="Python.solution (2)" />
-      <item itemvalue="Python.solution (3)" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.solution (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.solution" />
+      <item index="3" class="java.lang.String" itemvalue="Python.solution (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.solution (3)" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Python.solution (3)" />
-        <item itemvalue="Python.solution (2)" />
-        <item itemvalue="Python.solution" />
-        <item itemvalue="Python.solution (1)" />
-        <item itemvalue="Python.test" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.solution (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.solution (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.solution" />
+        <item index="3" class="java.lang.String" itemvalue="Python.solution (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -355,16 +386,8 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -374,7 +397,9 @@
           <line>316</line>
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="1" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/数组/简单/question.md">
